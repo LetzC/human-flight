@@ -9,11 +9,6 @@ html {
   font-size: 62.5%;
 }
 
-header {
-  position: relative;
-  z-index: 2;
-}
-
 nav {
   margin-left: 30rem;
 
@@ -22,14 +17,23 @@ nav {
       color: white;
       font-size: 1.3rem;
     }
+
+    #falcon9 {
+      width: 8rem;
+    }
+
+    #human-flight {
+      width: 15rem;
+    }
   }
 }
 
 .background {
   position: relative;
-  top: 0;
-  height: 100vh;
-  background-size: contain;
+  top: -20rem;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;
 }
