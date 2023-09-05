@@ -12,6 +12,7 @@ html {
 
 nav {
   margin-left: 30rem;
+  z-index: 5;
 }
 nav .navbar-nav a {
   color: white;
@@ -26,14 +27,31 @@ nav .navbar-nav #human-flight {
   width: 16rem;
 }
 
-.background {
+.title-home {
+  color: white;
+  margin-left: 30rem;
+}
+.title-home h6 {
+  font-size: 2rem;
+}
+.title-home h2 {
+  font-size: 4rem;
+  margin-bottom: 5rem;
+}
+.title-home button {
+  font-size: 1.4rem;
+  width: 14.5rem;
+  padding: 1.4rem 0;
+  border-width: 0.2rem;
+}
+
+#mission-team-3 {
   position: relative;
-  top: -20rem;
-  height: 100%;
-  width: 100%;
+  top: -10vh;
+  background-image: url(../../imgs/home/01.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  z-index: -1;
+  height: 103vh;
 }
 
 /*# sourceMappingURL=style.css.map */
