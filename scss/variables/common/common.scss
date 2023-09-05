@@ -11,19 +11,20 @@ html {
 
 nav {
   margin-left: 30rem;
-
   .navbar-nav {
     a {
       color: white;
-      font-size: 1.3rem;
+      font-size: 1.2rem;
+      font-weight: bold;
     }
 
     #falcon9 {
-      width: 8rem;
+      width: 7rem;
+      margin-left: 2rem;
     }
 
     #human-flight {
-      width: 15rem;
+      width: 16rem;
     }
   }
 }

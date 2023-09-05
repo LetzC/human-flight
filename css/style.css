@@ -15,13 +15,15 @@ nav {
 }
 nav .navbar-nav a {
   color: white;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 nav .navbar-nav #falcon9 {
-  width: 8rem;
+  width: 7rem;
+  margin-left: 2rem;
 }
 nav .navbar-nav #human-flight {
-  width: 15rem;
+  width: 16rem;
 }
 
 .background {
