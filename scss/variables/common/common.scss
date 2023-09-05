@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* a cada 1rem será considera 10px */
+  font-size: 62.5%;
+}
+
+header {
+  position: relative;
+  z-index: 2;
+}
+
+nav {
+  margin-left: 30rem;
+
+  .navbar-nav {
+    a {
+      color: white;
+      font-size: 1.3rem;
+    }
+  }
+}
+
+.background {
+  position: relative;
+  top: 0;
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
