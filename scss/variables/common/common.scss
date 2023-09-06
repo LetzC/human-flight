@@ -48,3 +48,12 @@ nav {
     border-width: 0.2rem;
   }
 }
+
+footer {
+  height: 15rem;
+  font-weight: 500;
+
+  #copyright {
+    color: $copyright-footer;
+  }
+}

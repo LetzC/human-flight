@@ -45,6 +45,14 @@ nav .navbar-nav #human-flight {
   border-width: 0.2rem;
 }
 
+footer {
+  height: 15rem;
+  font-weight: 500;
+}
+footer #copyright {
+  color: #555252;
+}
+
 #mission-team-3 {
   position: relative;
   top: -10vh;
@@ -52,6 +60,38 @@ nav .navbar-nav #human-flight {
   background-size: cover;
   background-repeat: no-repeat;
   height: 103vh;
+}
+
+#mission-team-2 {
+  position: relative;
+  top: -10vh;
+  background-image: url(../../imgs/home/03.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 103vh;
+}
+
+#dragon {
+  position: relative;
+  top: -10vh;
+  background-image: url(../../imgs/home/02.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 103vh;
+}
+
+#starship {
+  position: relative;
+  top: -10vh;
+  background-image: url(../../imgs/home/04.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 103vh;
+}
+
+footer {
+  color: white;
+  font-size: 1.3rem;
 }
 
 /*# sourceMappingURL=style.css.map */
