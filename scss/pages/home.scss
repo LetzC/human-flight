@@ -1,40 +1,68 @@
+@mixin background-style(
+  $position,
+  $top,
+  $height,
+  $url,
+  $background-size,
+  $background-repeat
+) {
+  position: $position;
+  top: $top;
+  height: $height;
+  background-image: $url;
+  background-size: $background-size;
+  background-repeat: $background-repeat;
+}
+
 #mission-team-3 {
-  position: relative;
-  top: -10vh;
-  background-image: url(../../imgs/home/01.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 103vh;
+  @include background-style(
+    relative,
+    -10vh,
+    103vh,
+    url(../../imgs/home/01.jpg),
+    cover,
+    no-repeat
+  );
 }
 
 #mission-team-2 {
-  position: relative;
-  top: -10vh;
-  background-image: url(../../imgs/home/03.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 103vh;
+  @include background-style(
+    relative,
+    -10vh,
+    103vh,
+    url(../../imgs/home/03.jpg),
+    cover,
+    no-repeat
+  );
 }
 
 #dragon {
-  position: relative;
-  top: -10vh;
-  background-image: url(../../imgs/home/02.gif);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 103vh;
+  @include background-style(
+    relative,
+    -10vh,
+    103vh,
+    url(../../imgs/home/02.gif),
+    cover,
+    no-repeat
+  );
 }
 
 #starship {
-  position: relative;
-  top: -10vh;
-  background-image: url(../../imgs/home/04.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 103vh;
+  @include background-style(
+    relative,
+    -10vh,
+    103vh,
+    url(../../imgs/home/04.jpg),
+    cover,
+    no-repeat
+  );
 }
 
 footer {
   color: white;
   font-size: 1.3rem;
+}
+
+main {
+  height: 400vh;
 }

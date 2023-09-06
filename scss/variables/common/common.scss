@@ -53,6 +53,15 @@ footer {
   height: 15rem;
   font-weight: 500;
 
+  a {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+      color: $hover-link;
+    }
+  }
   #copyright {
     color: $copyright-footer;
   }

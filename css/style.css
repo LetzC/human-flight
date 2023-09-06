@@ -48,6 +48,14 @@ footer {
   height: 15rem;
   font-weight: 500;
 }
+footer a {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+footer a:hover {
+  color: #b9b9b9;
+}
 footer #copyright {
   color: #555252;
 }
@@ -55,42 +63,46 @@ footer #copyright {
 #mission-team-3 {
   position: relative;
   top: -10vh;
+  height: 103vh;
   background-image: url(../../imgs/home/01.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 103vh;
 }
 
 #mission-team-2 {
   position: relative;
   top: -10vh;
+  height: 103vh;
   background-image: url(../../imgs/home/03.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 103vh;
 }
 
 #dragon {
   position: relative;
   top: -10vh;
+  height: 103vh;
   background-image: url(../../imgs/home/02.gif);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 103vh;
 }
 
 #starship {
   position: relative;
   top: -10vh;
+  height: 103vh;
   background-image: url(../../imgs/home/04.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 103vh;
 }
 
 footer {
   color: white;
   font-size: 1.3rem;
+}
+
+main {
+  height: 400vh;
 }
 
 /*# sourceMappingURL=style.css.map */
