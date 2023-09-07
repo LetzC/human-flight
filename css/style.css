@@ -11,7 +11,7 @@ html {
 }
 
 nav {
-  margin-left: 30rem;
+  margin-left: 15vw;
   z-index: 5;
 }
 nav .navbar-nav a {
@@ -26,9 +26,19 @@ nav .navbar-nav #falcon9 {
 nav .navbar-nav #human-flight {
   width: 16rem;
 }
+nav .navbar-nav img {
+  width: 50%;
+  height: 10%;
+}
+
+footer {
+  color: white;
+  font-size: 1.3rem;
+}
 
 .title-home {
   color: white;
+  margin-left: 15vw;
 }
 .title-home h6 {
   font-size: 2rem;
@@ -60,6 +70,15 @@ footer #copyright {
   color: #555252;
 }
 
+@media (max-width: 320px) {
+  nav {
+    margin-left: 3vw;
+  }
+  nav img {
+    width: 200rem;
+    height: 100rem;
+  }
+}
 #mission-team-3 {
   position: relative;
   top: -10vh;
@@ -96,13 +115,47 @@ footer #copyright {
   background-repeat: no-repeat;
 }
 
-footer {
-  color: white;
-  font-size: 1.3rem;
+#arrowDown {
+  width: 9rem;
 }
 
 main {
   height: 400vh;
+}
+
+#falcon9-introduction {
+  position: relative;
+  top: -15vh;
+  height: 108vh;
+  background-image: url(../../imgs/falcon9/01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#falcon9-introduction h1 {
+  font-size: 9.5rem;
+}
+#falcon9-introduction h6 {
+  font-size: 2rem;
+  margin-top: 1.5rem;
+}
+
+#falcon9-informations {
+  position: relative;
+  top: 0;
+  height: 100vh;
+  background-image: url(../../imgs/falcon9/02.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#falcon9-informations #informations {
+  justify-content: space-between;
+}
+#falcon9-informations #informations h3 {
+  font-size: 9.5rem;
+}
+#falcon9-informations #informations p {
+  font-size: 2rem;
+  margin-top: 1.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

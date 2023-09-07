@@ -31,7 +31,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li>
-              <a class="nav-link" href="./paginas-html/falcon9.html" id="falcon9">FALCON 9</a>
+              <a class="nav-link" href="#" id="falcon9">FALCON 9</a>
             </li>
             <li>
               <a class="nav-link" href="#" id="human-flight">HUMAN SPACE FLIGHT</a>
@@ -40,10 +40,30 @@
         </div>
       </div>
     </nav>
-    <!-- <img src="./imgs/home/01.jpg" class="background"> -->
   </header>
-  <main>
-    <h1>site</h1>
+  <main class="container-fluid g-0 bg-black">
+    <section id="falcon9-introduction" class="d-flex align-items-center text-center">
+      <div data-aos="fade-up" data-os-duration="10000" class="container text-white">
+        <h1>FALCON 9</h1>
+        <p>PRIMEIRA CLASSE DE FOGUETES DE ORBITA CAPAZ DE VOLTAR</p>
+      </div>
+    </section>
+    <section id="falcon9-informations" class="d-flex text-center">
+      <div id="informations" class="container text-white d-flex">
+        <div data-aos="flip-up" data-os-duration="10000" class="information">
+          <h3>126</h3>
+          <p>LANÇAMENTOS TOTAIS</p>
+        </div>
+        <div class="information" data-aos="flip-right" data-os-duration="10000">
+          <h3>86</h3>
+          <p>DESEMBARQUES TOTAIS</p>
+        </div>
+        <div class="information" data-aos="flip-right" data-os-duration="10000">
+          <h3>68</h3>
+          <p>FOGUETES RECUPERADOS</p>
+        </div>
+      </div>
+    </section>
   </main>
   <footer class="container-fluid bg-black d-flex justify-content-center">
     <ul class="gap-4 list-unstyled d-flex align-items-center">
@@ -54,14 +74,15 @@
     </ul>
   </footer>
 
-  <!-- Bootstrap  -->
-  <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
-
   <!-- Lib Animation -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
+
+  <!-- Bootstrap  -->
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
 </body>
 
 </html>
