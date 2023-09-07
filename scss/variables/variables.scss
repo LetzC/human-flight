@@ -1,0 +1,16 @@
+$hover-link: #b9b9b9;
+$copyright-footer: #555252;
+$item-table: #d8d8d8;
+$padding: 20px 0px;
+
+* {
+  color: white;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* a cada 1rem será considera 10px */
+  font-size: 62.5%;
+}

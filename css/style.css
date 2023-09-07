@@ -1,5 +1,7 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Rubik:wght@300;400&display=swap");
 * {
+  color: white;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -10,34 +12,29 @@ html {
   font-size: 62.5%;
 }
 
-nav {
-  margin-left: 15vw;
-  z-index: 5;
-}
-nav .navbar-nav a {
-  color: white;
+.header {
   font-size: 1.2rem;
   font-weight: bold;
 }
-nav .navbar-nav #falcon9 {
-  width: 7rem;
-  margin-left: 2rem;
+
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-nav .navbar-nav #human-flight {
-  width: 16rem;
-}
-nav .navbar-nav img {
-  width: 50%;
-  height: 10%;
+
+.arrowDown {
+  display: inline-block;
+  width: 9rem;
+  margin-top: 0.5rem;
 }
 
 footer {
-  color: white;
   font-size: 1.3rem;
 }
 
 .title-home {
-  color: white;
   margin-left: 15vw;
 }
 .title-home h6 {
@@ -113,10 +110,6 @@ footer #copyright {
   background-image: url(../../imgs/home/04.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-#arrowDown {
-  width: 9rem;
 }
 
 main {
