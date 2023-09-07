@@ -1,47 +1,28 @@
-#mission-team-3 {
-  @include background-style(
-    relative,
-    -10vh,
-    103vh,
-    url(../../imgs/home/01.jpg),
-    cover,
-    no-repeat
-  );
+.container00 {
+  &.container01 {
+    background-image: url(../../imgs/home/01.jpg);
+  }
+  &.container02 {
+    background-image: url(../../imgs/home/03.jpg);
+  }
+  &.container03 {
+    background-image: url(../../imgs/home/02.gif);
+  }
+  &.container04 {
+    background-image: url(../../imgs/home/04.jpg);
+  }
 }
 
-#mission-team-2 {
-  @include background-style(
-    relative,
-    -10vh,
-    103vh,
-    url(../../imgs/home/03.jpg),
-    cover,
-    no-repeat
-  );
+.titlePadding {
+  padding-top: 200px;
 }
 
-#dragon {
-  @include background-style(
-    relative,
-    -10vh,
-    103vh,
-    url(../../imgs/home/02.gif),
-    cover,
-    no-repeat
-  );
+.shortTitle {
+  width: 550px;
+  margin-bottom: -25px;
 }
 
-#starship {
-  @include background-style(
-    relative,
-    -10vh,
-    103vh,
-    url(../../imgs/home/04.jpg),
-    cover,
-    no-repeat
-  );
-}
-
-main {
-  height: 400vh;
+.mediumTitle {
+  width: 650px;
+  margin-bottom: -25px;
 }

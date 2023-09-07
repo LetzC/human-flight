@@ -1,19 +1,10 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Rubik:wght@300;400&display=swap");
 * {
   color: white;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-html {
-  /* a cada 1rem será considera 10px */
-  font-size: 62.5%;
 }
 
 .header {
-  font-size: 1.2rem;
+  font-size: 12px;
   font-weight: bold;
 }
 
@@ -26,33 +17,24 @@ html {
 
 .arrowDown {
   display: inline-block;
-  width: 9rem;
-  margin-top: 0.5rem;
+  width: 90px;
+  margin-top: 5px;
+}
+
+.logoPc {
+  width: 240px;
+  margin-left: -10px;
+  margin-right: 20px;
+}
+
+#button {
+  padding: 15px 35px;
+  margin-top: 5rem;
 }
 
 footer {
-  font-size: 1.3rem;
-}
-
-.title-home {
-  margin-left: 15vw;
-}
-.title-home h6 {
-  font-size: 2rem;
-}
-.title-home h2 {
-  font-size: 4rem;
-  margin-bottom: 6rem;
-}
-.title-home button {
-  font-size: 1.4rem;
-  width: 14.5rem;
-  padding: 1.4rem 0;
-  border-width: 0.2rem;
-}
-
-footer {
-  height: 15rem;
+  font-size: 12px;
+  height: 15vh;
   font-weight: 500;
 }
 footer a {
@@ -61,94 +43,38 @@ footer a {
   color: white;
 }
 footer a:hover {
-  color: #b9b9b9;
+  color: #ff0033;
+  transition: 0.5s;
 }
 footer #copyright {
   color: #555252;
 }
 
-@media (max-width: 320px) {
-  nav {
-    margin-left: 3vw;
-  }
-  nav img {
-    width: 200rem;
-    height: 100rem;
-  }
-}
-#mission-team-3 {
-  position: relative;
-  top: -10vh;
-  height: 103vh;
+.container00.container01 {
   background-image: url(../../imgs/home/01.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
-
-#mission-team-2 {
-  position: relative;
-  top: -10vh;
-  height: 103vh;
+.container00.container02 {
   background-image: url(../../imgs/home/03.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
-
-#dragon {
-  position: relative;
-  top: -10vh;
-  height: 103vh;
+.container00.container03 {
   background-image: url(../../imgs/home/02.gif);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
-
-#starship {
-  position: relative;
-  top: -10vh;
-  height: 103vh;
+.container00.container04 {
   background-image: url(../../imgs/home/04.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
-main {
-  height: 400vh;
+.titlePadding {
+  padding-top: 200px;
 }
 
-#falcon9-introduction {
-  position: relative;
-  top: -15vh;
-  height: 108vh;
-  background-image: url(../../imgs/falcon9/01.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-#falcon9-introduction h1 {
-  font-size: 9.5rem;
-}
-#falcon9-introduction h6 {
-  font-size: 2rem;
-  margin-top: 1.5rem;
+.shortTitle {
+  width: 550px;
+  margin-bottom: -25px;
 }
 
-#falcon9-informations {
-  position: relative;
-  top: 0;
-  height: 100vh;
-  background-image: url(../../imgs/falcon9/02.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-#falcon9-informations #informations {
-  justify-content: space-between;
-}
-#falcon9-informations #informations h3 {
-  font-size: 9.5rem;
-}
-#falcon9-informations #informations p {
-  font-size: 2rem;
-  margin-top: 1.5rem;
+.mediumTitle {
+  width: 650px;
+  margin-bottom: -25px;
 }
 
 /*# sourceMappingURL=style.css.map */

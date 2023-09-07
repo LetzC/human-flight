@@ -1,21 +1,5 @@
-@mixin background-style(
-  $position,
-  $top,
-  $height,
-  $url,
-  $background-size,
-  $background-repeat
-) {
-  position: $position;
-  top: $top;
-  height: $height;
-  background-image: $url;
-  background-size: $background-size;
-  background-repeat: $background-repeat;
-}
-
 .header {
-  font-size: 1.2rem;
+  font-size: 12px;
   font-weight: bold;
 }
 
@@ -28,62 +12,24 @@
 
 .arrowDown {
   display: inline-block;
-  width: 9rem;
-  margin-top: 0.5rem;
+  width: 90px;
+  margin-top: 5px;
 }
 
 .logoPc {
+  width: 240px;
+  margin-left: -10px;
+  margin-right: 20px;
 }
 
-// nav {
-//   margin-left: 15vw;
-//   z-index: 5;
-//   .navbar-nav {
-//     a {
-//       font-size: 1.2rem;
-//       font-weight: bold;
-//     }
-
-//     #falcon9 {
-//       width: 7rem;
-//       margin-left: 2rem;
-//     }
-
-//     #human-flight {
-//       width: 16rem;
-//     }
-//     img {
-//       width: 50%;
-//       height: 10%;
-//     }
-//   }
-// }
-
-footer {
-  font-size: 1.3rem;
-}
-
-.title-home {
-  margin-left: 15vw;
-
-  h6 {
-    font-size: 2rem;
-    // padding-top: 30rem;
-  }
-  h2 {
-    font-size: 4rem;
-    margin-bottom: 6rem;
-  }
-  button {
-    font-size: 1.4rem;
-    width: 14.5rem;
-    padding: 1.4rem 0;
-    border-width: 0.2rem;
-  }
+#button {
+  padding: $padding-button;
+  margin-top: 5rem;
 }
 
 footer {
-  height: 15rem;
+  font-size: 12px;
+  height: 15vh;
   font-weight: 500;
 
   a {
@@ -92,21 +38,11 @@ footer {
     color: white;
 
     &:hover {
-      color: $hover-link;
+      color: #ff0033;
+      transition: 0.5s;
     }
   }
   #copyright {
     color: $copyright-footer;
-  }
-}
-
-@media (max-width: 320px) {
-  nav {
-    margin-left: 3vw;
-
-    img {
-      width: 200rem;
-      height: 100rem;
-    }
   }
 }
