@@ -23,8 +23,8 @@
 }
 
 #button {
-  padding: $padding-button;
-  margin-top: 5rem;
+  padding: 15px 35px;
+  border: 2px solid white;
 }
 
 footer {
@@ -44,5 +44,24 @@ footer {
   }
   #copyright {
     color: $copyright-footer;
+  }
+}
+
+// Media Query
+
+@media (max-width: 405px) {
+  .logoPc {
+    width: 180px;
+    margin-top: 15px;
+  }
+  footer {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  .logoPc {
+    width: 150px;
+    margin-top: 15px;
   }
 }
