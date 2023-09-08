@@ -31,6 +31,13 @@
   font-weight: 514;
 }
 
+.titleContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 80vh;
+}
+
 .numbers {
   background-color: black;
   height: 40vh;
@@ -62,13 +69,6 @@
   width: 500px;
   margin-left: 13%;
   padding-top: 15%;
-}
-
-.titleContent {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: 80vh;
 }
 
 .carrosselSlide {
