@@ -263,21 +263,63 @@ footer #copyright {
   }
 }
 .container00.container08 {
-  background-image: url(../../imgs/humanFlight/01.jpg);
+  background-image: url(../imgs/humanFlight/01.jpg);
+}
+.container00.container09 {
+  background-image: url(../imgs/humanFlight/02.jpg);
+}
+.container00.container10 {
+  background-image: url(../imgs/humanFlight/03.jpg);
+}
+.container00.container11 {
+  background-image: url(../imgs/humanFlight/04.jpg);
+}
+.container00.container12 {
+  background-image: url(../imgs/humanFlight/05.jpg);
 }
 
-.titleHuman {
-  padding: 20px 0px;
-  margin-top: 6rem;
+.container01Content {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container01Content h1 {
   font-size: 120px;
 }
-
-.subTitleHuman {
-  font-size: 29px;
+.container01Content p {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: 300;
+}
+.container01Content img {
+  width: 130px;
 }
 
-.arrowDownHuman {
-  width: 120px;
+.containerRightContent {
+  margin-left: 55%;
+  padding-top: 15%;
+}
+
+.eartDesc {
+  background-color: black;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.eartDesc p {
+  color: #d8d8d8;
+  font-weight: 400;
+  font-size: 20px;
+  width: 800px;
+}
+.eartDesc a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=style.css.map */
