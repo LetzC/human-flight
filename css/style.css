@@ -27,6 +27,23 @@
   margin-right: 20px;
 }
 
+.downloadDesc {
+  background-color: black;
+  height: 85vh;
+  padding-top: 240px;
+}
+.downloadDesc a {
+  text-decoration: none;
+  color: #b9b9b9;
+}
+.downloadDesc a:hover {
+  color: #d8d8d8;
+}
+.downloadDesc button {
+  border: 2px solid white;
+  margin-right: 10px;
+}
+
 #button {
   padding: 15px 35px;
   border: 2px solid white;
@@ -187,23 +204,6 @@ footer #copyright {
   background-color: black;
 }
 
-.downloadDesc {
-  background-color: black;
-  height: 85vh;
-  padding-top: 240px;
-}
-.downloadDesc a {
-  text-decoration: none;
-  color: #b9b9b9;
-}
-.downloadDesc a:hover {
-  color: #d8d8d8;
-}
-.downloadDesc button {
-  border: 2px solid white;
-  margin-right: 10px;
-}
-
 @media (max-width: 1024px) {
   .numbers p {
     font-size: 18px;
@@ -260,6 +260,23 @@ footer #copyright {
     font-size: 20px;
     font-weight: 300;
   }
+}
+.container00.container08 {
+  background-image: url(../../imgs/humanFlight/01.jpg);
+}
+
+.titleHuman {
+  padding: 20px 0px;
+  margin-top: 6rem;
+  font-size: 120px;
+}
+
+.subTitleHuman {
+  font-size: 29px;
+}
+
+.arrowDownHuman {
+  width: 120px;
 }
 
 /*# sourceMappingURL=style.css.map */

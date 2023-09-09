@@ -1,0 +1,19 @@
+.container00 {
+  &.container08 {
+    background-image: url(../../imgs/humanFlight/01.jpg);
+  }
+}
+
+.titleHuman {
+  padding: $padding-fixed;
+  margin-top: 6rem;
+  font-size: 120px;
+}
+
+.subTitleHuman {
+  font-size: 29px;
+}
+
+.arrowDownHuman {
+  width: 120px;
+}
