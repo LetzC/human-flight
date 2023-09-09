@@ -117,3 +117,49 @@
     padding-top: 20%;
   }
 }
+
+@media (max-width: 425px) {
+  .container01Content {
+    h1 {
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .arrowDown {
+    display: none;
+  }
+
+  .eartDesc {
+    height: 30vh;
+    p {
+      color: $item-table;
+      font-weight: 400;
+      font-size: 14px;
+      width: auto;
+    }
+  }
+
+  .containerRightContent {
+    margin-left: 20%;
+    padding-top: 30%;
+  }
+
+  .titleSection {
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .subTitle {
+    font-weight: 300;
+    margin-bottom: 40px;
+  }
+
+  .containerLeftContent {
+    margin-left: 7%;
+    padding-top: 30%;
+  }
+}
