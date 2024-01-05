@@ -1,17 +1,19 @@
 # Human Flight
+<img src="./imgs/cover.jpg">
 
-Página baseada na SpaceX com o intuito de aplicar meus conhecimentos de HTML, SCSS e Bootstrap.
+<p align="center">Página baseada na SpaceX com o intuito de aplicar meus conhecimentos de HTML, SCSS e Bootstrap.</p>
 
-Com esse projeto, tive a oportunidade de me aprofundar mais no Bootstrap, que é o foco neste projeto de conclusão do curso que fiz na OneBitCode.
+---
+
+<h5>Com esse projeto, tive a oportunidade de me aprofundar mais no Bootstrap, que é o foco neste projeto de conclusão do curso que fiz na OneBitCode.</h5>
 
 
 
-
-## Visualizar projeto
+## :mag_right: Visualizar projeto
 
 [Acesse o projeto aqui!](https://human-flight-nine.vercel.app/index.html)
 
-## Aprendizados
+## :file_folder: Aprendizados
 
 Além de conseguir colocar muitos conceitos em prática utilizando esse framework, teve alguns pontos chave que gostei muito de desenvolver e que me fizeram evoluir. Por exemplo:
 
@@ -20,7 +22,7 @@ Além de conseguir colocar muitos conceitos em prática utilizando esse framewor
 - Transformação do layout em responsivo.
 
 
-## Autores
+## :bulb: Autores
 
 - [@LetzC](https://github.com/LetzC)
 
